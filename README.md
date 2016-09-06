@@ -1,10 +1,9 @@
-在vim替NCL語法上色以及自動補齊
+#在vim替NCL語法上色以及自動補齊
 =====
-
 本文說明如何在vim編輯器下使[NCL](http://www.ncl.ucar.edu/)的關鍵字具有highlight以及自動補齊(auto completion, 補齊resources, 函式, 各種括號, etc)。安裝的plugin主要有三個：(1)ncl.vim: NCL的syntax檔案，(2)ncl.dic: NCL自動補齊，(3)[AutoComplPop](https://github.com/vim-scripts/AutoComplPop):讓vim自動跳出自動補齊的選單，如果不裝AutoComplPop，則須以指令ctrl+p呼叫選單，(4)[autoclose](https://github.com/Townk/vim-autoclose):各種括號的自動補齊。
 <br></br>
 
-####**NCL語法上色**
+##NCL語法上色
 
 輸入指令
 ```bash
@@ -28,7 +27,7 @@ vim ~/.vimrc
 重新開啟終端機後，即可發現NCL的語法被上色囉！
 <br></br>
 
-####**NCL自動補齊**
+##NCL自動補齊
 ```bash
 mkdir -p ~/.vim/dictionary/ && cd ~/.vim/dictionary/
 ```
@@ -48,7 +47,7 @@ vim ~/.vimrc
 重新開啟終端機後，游標在不完整的NCL關鍵字後方按下**ctrl+p**即可出現補齊的選單。例如輸入printVar後按下ctrl+p即可出現選單並補齊成printVarSummary。
 
 <br></br>
-####**AutoComplPop***
+##AutoComplPop*
 AutoComplPop是否安裝因人而異，其功能在於**自動**跳出自動補齊選單，否則必須自行以ctrl+p呼叫選單。
 ```bash
 cd ~ && git clone https://github.com/vim-scripts/AutoComplPop.git
@@ -66,7 +65,7 @@ cp autoload/acp.vim ~/.vim/autoload/ && cp doc/acp.* ~/.vim/doc/ && cp plugin/ac
 重新開啟終端機後，vim將自動跳出自動補齊選單
 <br></br>
 
-####**Autoclose***
+##Autoclose*
 
 ```bash
 cd ~ && git clone https://github.com/Townk/vim-autoclose.git
