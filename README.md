@@ -1,6 +1,6 @@
 #在vim替NCL語法上色以及自動補齊
 =====
-本文說明如何在vim編輯器下使[NCL](http://www.ncl.ucar.edu/)的關鍵字具有highlight以及自動補齊(auto completion, 補齊resources, 函式, 各種括號, etc)。安裝的plugin主要有三個：(1)ncl.vim: NCL的syntax檔案，(2)ncl.dic: NCL自動補齊，(3)[AutoComplPop](https://github.com/vim-scripts/AutoComplPop):讓vim自動跳出自動補齊的選單，如果不裝AutoComplPop，則須以指令ctrl+p呼叫選單，(4)[autoclose](https://github.com/Townk/vim-autoclose):各種括號的自動補齊。
+本文說明如何在vim編輯器下使[NCL](http://www.ncl.ucar.edu/)的關鍵字具有highlight以及自動補齊(auto completion, 補齊resources, 函式, 各種括號, etc)。安裝的plugin主要有三個：<br/>(1)ncl.vim: NCL的syntax檔案，<br/>(2)ncl.dic: NCL自動補齊，<br/>(3)[AutoComplPop](https://github.com/vim-scripts/AutoComplPop):讓vim自動跳出自動補齊的選單，如果不裝AutoComplPop，則須以指令ctrl+p呼叫選單，<br/>(4)[autoclose](https://github.com/Townk/vim-autoclose):各種括號的自動補齊。
 <br></br>
 
 ##__NCL語法上色__
